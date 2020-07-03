@@ -1,0 +1,8 @@
+/*nodejs should be install in the system
+
+--Running the web application--
+1.open cmd and to the code directory
+
+2.type=>   npm start
+
+====
