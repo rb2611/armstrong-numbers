@@ -1,0 +1,30 @@
+{
+  "name": "armstrong-numbers",
+  "version": "1.0.0",
+  "description": "assignment1",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rb2611/armstrong-numbers.git"
+  },
+  "author": "Ramanand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rb2611/armstrong-numbers/issues"
+  },
+  "homepage": "https://github.com/rb2611/armstrong-numbers#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "byteof": "^0.1.1",
+    "font-awesome": "^4.7.0",
+    "liteserver": "^0.3.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

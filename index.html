@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <!-- REQUIRED META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="css/index.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+      <h1>Armstrong Numbers</h1>
+    </header>
+    <main>
+    <div class="container">
+      <div class="row row-content">
+        <div class="col-12 col-md-6" id="user">
+		        <h1>Whether a number is Armstrong or not</h1><br><br>
+		        <b>Enter The Number : </b><input type="text" name="n" id = "N"/>
+            <br><br>
+		        <button class="btn btn-primary" onClick="Armstrong()">CHECK  <i class="fa fa-check-circle"></i></button>
+
+        </div>
+        <div class="col-12 col-md-6" id="output">
+          <br><br>
+          <div id="result"></div><br><br>
+          <div id="r"></div><br><br>
+          <div id="time"></div><br><br>
+          <div id="memory"></div><br><br>
+        </div>
+      </div>
+    </div>
+  </main>
+
+      <script src="./index.js"></script>
+	</body>
+</html>
