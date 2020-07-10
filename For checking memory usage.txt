@@ -1,0 +1,15 @@
+//TO CHECK THE MEMORY USAGE
+
+
+//OPEN CMD/TERMINAL AND GO TO THE FILE DIRECTORY AND TYPE 
+
+	node index.js 
+
+
+//this will show the result as mentioned below
+
+Memory: rss 17.58 MB
+Memory: heapTotal 3.83 MB
+Memory: heapUsed 2.15 MB
+Memory: external 0.76 MB
+Memory: arrayBuffers 0.01 MB
